@@ -15,6 +15,7 @@ function ContactForm() {
     setSuccess(true);
     event.preventDefault();
     console.log('Success submit', success);
+    setTimeout(() => {setSuccess(false)}, 3000)
   };
 
   return (

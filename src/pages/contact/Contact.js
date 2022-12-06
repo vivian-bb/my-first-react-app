@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import ContactForm from '../../components/Layout/ContactForm';
-
+import Loader from 'react-loaders';
  function Contact() {
   return (
     <div>
@@ -13,7 +13,7 @@ import ContactForm from '../../components/Layout/ContactForm';
       <br/> 
       
       <ContactForm />
-        
+      <Loader type="line-scale" color="grey" width={500} />
     </div>
   )
 }

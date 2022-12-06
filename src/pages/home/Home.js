@@ -25,7 +25,7 @@ function Home() {
                 </a>
             </IconsContainer>
             </Content>
-                <Loader type="line-scale" color="black" width={500} />
+               
 
         </div>
     )
