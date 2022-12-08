@@ -4,7 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Loader from 'react-loaders';
-
+import AnimatedLetters  from '../../components/Layout/AnimatedLetters/AnimatedLetters.js';
+import Image from 'react-bootstrap/Image';
+import img2 from '../../assets/circle-cropped.png'
 function About() {
   return (
   
@@ -15,10 +17,16 @@ function About() {
       
         <Col></Col>
       
-        <Col xs={6}>  
+        <Col xs={6}> 
+        <br/><br/><br/>
+        <br/><br/><br/>
+      
+             <div>
+            <Image src={img2} width="100" height="100" fluid/>
+             </div>
         <br/><br/><br/> 
        <div>
-          <h3>About me</h3><br/>
+          <h3><AnimatedLetters strArray={"About me".split('')} startIdx={1}  /></h3><br/>
           <p >
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             
