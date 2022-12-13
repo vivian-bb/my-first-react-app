@@ -13,25 +13,26 @@ function ProjectContainer() {
         <Col xs={6}><Card>
             <Card.Img variant="top" src="https://picsum.photos/id/119/150/80" />
             <Card.Body>
-              <Card.Title>Project 1</Card.Title>
+              <Card.Title>Project 1 Mario game</Card.Title>
               <Card.Text>
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
               </Card.Text>
-              <Button variant="primary"  href="/">More Details</Button>
+              <Button variant="primary" href="https://codepen.io/vivianbb/pen/BaVzdwP" target="_blank">More details</Button>
             </Card.Body>
           </Card></Col>
         <Col xs={6}><Card>
             <Card.Img variant="top" src="https://picsum.photos/id/60/150/80" />
             <Card.Body>
-              <Card.Title>Project 2</Card.Title>
+              <Card.Title>Project 2 Coffe shop app</Card.Title>
               <Card.Text>
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
               </Card.Text>
-              <Button variant="primary" href="/">More details</Button>
+         
+              <Button variant="primary" href="https://codepen.io/vivianbb/pen/vYrydva" target="_blank">More details</Button>
             </Card.Body>
           </Card>
           </Col>
