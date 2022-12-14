@@ -1,8 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 
 function NavBar() {
@@ -15,9 +16,10 @@ function NavBar() {
           <Nav className="me-auto">
            {/* copy the original code under bottom */}
            <Nav.Link href="/">Home</Nav.Link>
-           <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+           <Nav.Link href="about">About</Nav.Link>
+            <Nav.Link href="projects">Projects</Nav.Link>
+            <Nav.Link href="contact">Contact</Nav.Link>
+
    
             <NavDropdown title="Social Media" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://www.linkedin.com/in/vivian-zhang-525923142/">LinkedIn</NavDropdown.Item>
@@ -26,7 +28,8 @@ function NavBar() {
               </NavDropdown.Item>
               
             </NavDropdown>
-            <Nav.Link href="/Dashboard">Dashboard</Nav.Link>
+            <Nav.Link href="Dashboard">Dashboard</Nav.Link>
+        
           </Nav>
         </Navbar.Collapse>
       </Container>
